@@ -389,12 +389,11 @@ li {
 
 
 /* Mobile layout*/
- @media (max-width: 1000px) {
+ @media (max-width: 500px) {
   .container {
-    background: gray;
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 60%;
   }
   .contentBoxDouble {
     flex-direction: column;
@@ -402,26 +401,60 @@ li {
   
   header {
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .logo {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+  }
+  header nav {
+    flex-flow: column;
   }
 
-  header nav {
-    display: flex;
-    flex-flow: column;
+  header a {
     justify-content: center;
+    display: flex;
+    width: 100%;
   }
   header nav a {
     border-bottom: solid 1px black;
   }
+  .banner {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .codeCircle {
+
+display: none;  }
+
+.content {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.tripleContainer {
+  flex-direction: column;
+
+
+}
+.middle-img {
+
+  align-self: center;
+  max-width: 100%
+
+}
 
 }
 /* Tablet layout*/
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .container {
-    background: gray;
     display: flex;
     flex-direction: column;
-    max-width: 400px;
   }
   .contentBoxDouble {
     flex-direction: column;
