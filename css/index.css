@@ -392,7 +392,7 @@ li {
   .container {
     display: flex;
     flex-direction: column;
-    max-width: 60%;
+    max-width: 80%;
   }
   .contentBoxDouble {
     flex-direction: column;
@@ -441,14 +441,11 @@ li {
   }
 }
 /* Tablet layout*/
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .container {
     display: flex;
     flex-direction: column;
-    max-width: 60%;
-  }
-  .contentBoxDouble {
-    flex-direction: column;
+    max-width: 80%;
   }
   .codeCircle {
     display: none;
@@ -470,5 +467,13 @@ li {
     justify-content: center;
     display: flex;
     width: 100%;
+  }
+
+  header nav a {
+    margin: 0px 0px 0px 0px;
+  }
+  .middle-img {
+    align-self: center;
+    max-width: 100%;
   }
 }
