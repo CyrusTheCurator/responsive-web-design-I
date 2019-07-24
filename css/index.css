@@ -387,11 +387,43 @@ li {
 }
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
-@media (max-width: 1000px) {
+
+/* Mobile layout*/
+ @media (max-width: 1000px) {
   .container {
     background: gray;
     display: flex;
     flex-direction: column;
-    max-width: 200px;
+    max-width: 400px;
   }
+  .contentBoxDouble {
+    flex-direction: column;
+  }
+  
+  header {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  header nav {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  header nav a {
+    border-bottom: solid 1px black;
+  }
+
 }
+/* Tablet layout*/
+@media (max-width: 500px) {
+  .container {
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  .contentBoxDouble {
+    flex-direction: column;
+  }
+  
