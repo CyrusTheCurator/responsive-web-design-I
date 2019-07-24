@@ -387,9 +387,8 @@ li {
 }
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
-
 /* Mobile layout*/
- @media (max-width: 500px) {
+@media (max-width: 500px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -398,7 +397,7 @@ li {
   .contentBoxDouble {
     flex-direction: column;
   }
-  
+
   header {
     justify-content: center;
     flex-direction: column-reverse;
@@ -406,7 +405,6 @@ li {
   .logo {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-
   }
   header nav {
     flex-flow: column;
@@ -421,42 +419,56 @@ li {
     border-bottom: solid 1px black;
   }
   .banner {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   .codeCircle {
+    display: none;
+  }
 
-display: none;  }
-
-.content {
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-
-}
-.tripleContainer {
-  flex-direction: column;
-
-
-}
-.middle-img {
-
-  align-self: center;
-  max-width: 100%
-
-}
-
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tripleContainer {
+    flex-direction: column;
+  }
+  .middle-img {
+    align-self: center;
+    max-width: 100%;
+  }
 }
 /* Tablet layout*/
 @media (max-width: 800px) {
   .container {
     display: flex;
     flex-direction: column;
+    max-width: 60%;
   }
   .contentBoxDouble {
     flex-direction: column;
   }
-  
+  .codeCircle {
+    display: none;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  header {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .logo {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  header a {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+}
