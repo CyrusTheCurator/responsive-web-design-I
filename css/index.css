@@ -386,3 +386,12 @@ li {
   justify-content: space-between;
 }
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+
+@media (max-width: 1000px) {
+  .container {
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+  }
+}
