@@ -576,7 +576,7 @@ li {
   }
 }
 /* Tablet layout*/
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .container {
     display: flex;
     flex-direction: column;
