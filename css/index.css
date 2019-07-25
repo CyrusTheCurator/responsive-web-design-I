@@ -369,6 +369,11 @@ li {
   outline-style: none;
 }
 
+.image-animation-container:hover .middle-img {
+  opacity: 0.5;
+  transition: 0.5s;
+  background-color: black;
+}
 .image-animation-container:hover .about-image {
   opacity: 0.5;
   transition: 0.5s;
@@ -522,7 +527,7 @@ overlay-container {
   }
   .middle-img {
     align-self: center;
-    max-width: 100%;
+    width: 100%;
   }
 }
 /* Tablet layout*/
@@ -531,6 +536,9 @@ overlay-container {
     display: flex;
     flex-direction: column;
     max-width: 80%;
+  }
+  .boxcorral {
+    justify-content: center;
   }
   .codeCircle {
     display: none;
