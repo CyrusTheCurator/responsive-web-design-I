@@ -375,8 +375,6 @@ li {
   background-color: black;
 }
 .overlay-container {
-  width: 100%;
-  height: 100%;
   display: flex;
   justify-content: flex-end;
 }
@@ -559,8 +557,15 @@ overlay-container {
   header nav a {
     margin: 0px 0px 0px 0px;
   }
+  .about-image {
+    align-self: center;
+    max-width: 100%;
+  }
   .middle-img {
     align-self: center;
     max-width: 100%;
+  }
+  .services-info-img {
+    display: none;
   }
 }
